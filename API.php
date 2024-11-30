@@ -14,7 +14,7 @@ $students = $data['results'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/picocss/dist/pico.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Student Nationality Data</title>
 </head>
 <body>
