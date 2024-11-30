@@ -6,36 +6,30 @@ table {
     text-align: left;
 }
 
-/* Add borders to the table */
 table th, table td {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-/* Style the header row */
 table thead tr {
     background-color: #f4f4f4;
     font-weight: bold;
 }
 
-/* Highlight rows on hover */
 table tbody tr:hover {
     background-color: #f9f9f9;
 }
 
-/* Scrollable container for small screens */
 table-wrapper {
     overflow-x: auto;
     display: block;
     margin-top: 1rem;
 }
 
-/* Make sure table cells are readable */
 table td {
-    white-space: nowrap; /* Prevent text wrapping */
+    white-space: nowrap; 
 }
 
-/* Adjust table font size on smaller screens */
 @media (max-width: 600px) {
     table {
         font-size: 0.9rem;
